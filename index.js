@@ -112,6 +112,7 @@ app.delete("/api/persons/:id", (request, response) => {
   }
 });
 
-app.listen(3001, function () {
+const PORT = process.env.port || 3001;
+app.listen(PORT, function () {
   console.log("App listening");
 });

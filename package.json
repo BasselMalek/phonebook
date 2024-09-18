@@ -13,6 +13,8 @@
   },
   "scripts": {
     "dev": "nodemon index.js",
-    "devbuild": "tsc index.ts; nodemon index.js"
+    "devbuild": "tsc index.ts; nodemon index.js",
+    "prod:ui": "",
+    "prod:full": ""
   }
 }
