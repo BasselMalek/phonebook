@@ -14,6 +14,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "devbuild": "tsc index.ts; nodemon index.js",
+    "start": "node index.js",
     "prod:ui": "",
     "prod:full": ""
   }
